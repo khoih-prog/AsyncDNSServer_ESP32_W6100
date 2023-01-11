@@ -101,7 +101,7 @@ to apply the better and faster **asynchronous** feature of the **powerful** [Asy
  1. [`Arduino IDE 1.8.19+` for Arduino](https://github.com/arduino/Arduino/)
  2. [`ESP32 Core 2.0.6+`](https://github.com/espressif/arduino-esp32) for ESP32-based boards. [![Latest release](https://img.shields.io/github/release/espressif/arduino-esp32.svg)](https://github.com/espressif/arduino-esp32/releases/latest/)
  3. [`WebServer_ESP32_W6100 library 1.5.2+`](https://github.com/khoih-prog/WebServer_ESP32_W6100). To install, check [![arduino-library-badge](https://www.ardu-badge.com/badge/WebServer_ESP32_W6100.svg?)](https://www.ardu-badge.com/WebServer_ESP32_W6100)
- 4. [`AsyncUdp_ESP32_W6100 library 2.0.0+`](https://github.com/khoih-prog/AsyncUdp_ESP32_W6100). To install, check [![arduino-library-badge](https://www.ardu-badge.com/badge/AsyncUdp_ESP32_W6100.svg?)](https://www.ardu-badge.com/AsyncUdp_ESP32_W6100)
+ 4. [`AsyncUdp_ESP32_W6100 library 2.0.0+`](https://github.com/khoih-prog/AsyncUDP_ESP32_W6100). To install, check [![arduino-library-badge](https://www.ardu-badge.com/badge/AsyncUDP_ESP32_W6100.svg?)](https://www.ardu-badge.com/AsyncUDP_ESP32_W6100)
  
 ---
 ---
