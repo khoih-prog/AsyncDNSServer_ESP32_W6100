@@ -1,0 +1,52 @@
+{
+  "name":"AsyncDNSServer_ESP32_W6100",
+  "version": "1.0.0",
+  "description":"Fully Asynchronous DNS Server Library for ESP32 boards using LwIP W6100 Ethernet. This library is one of the current or future and more advanced Async libraries, such as AsyncWebServer_ESP32_W6100, AsyncHTTPRequest_ESP32_W6100, AsyncHTTPSRequest_ESP32_W6100",
+  "keywords":"communication, data, async, udp, ntp, time, time-server, server, client, multicast, broadcast, webserver, esp32, w6100, lwip, lwip-w6100, udp-server, udp-multicast-server, dns-server, captive-portal",
+  "authors": 
+  [
+    {
+      "name": "Develo",
+      "url":   "https://github.com/devyte"
+    },
+    {
+      "name":  "Khoi Hoang",
+      "url":   "https://github.com/khoih-prog",
+      "email": "khoih.prog@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/khoih-prog/AsyncDNSServer_ESP32_W6100"
+  },
+  "homepage": "https://github.com/khoih-prog/AsyncDNSServer_ESP32_W6100",
+  "export": {
+    "exclude": [
+      "linux",
+      "extras",
+      "tests"
+    ]
+  },
+  "dependencies": 
+  [
+    {
+      "owner": "khoih-prog",
+      "name": "WebServer_ESP32_W6100",
+      "version": "^1.5.2",
+      "platforms": "espressif32"
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "AsyncUDP_ESP32_W6100",
+      "version": "^2.0.0",
+      "platforms": "espressif32"
+    }
+  ],
+  "license": "LGPL-3.0",
+  "frameworks": "*",
+  "platforms": ["espressif32"],
+  "examples": "examples/*/*/*.ino",
+  "headers": [ "AsyncDNSServer_ESP32_W6100.h", "AsyncDNSServer_ESP32_W6100.hpp" ]
+}  
